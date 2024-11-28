@@ -1,0 +1,46 @@
+version: '1.0'
+
+services:
+  # MongoDB service
+  mongo:
+    image: mongo:6.0
+    container_name: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: budget-tracking-app
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+  # Server service (Node.js API)
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    container_name: server
+    environment:
+      JWT_SECRET: ${JWT_SECRET}
+      REFRESH_TOKEN_SECRET: ${REFRESH_TOKEN_SECRET}
+      MONGO_DB_CONNECTION_STRING: mongodb://root:example@mongo:27017/budget-tracking-app?authSource=admin
+      COOKIE_SECRET: ${COOKIE_SECRET}
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+
+  # Client service (React app)
+  client:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    container_name: client
+    ports:
+      - "80:80"
+    depends_on:
+      - server
+
+volumes:
+  mongo-data:
+
