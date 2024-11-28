@@ -4,13 +4,13 @@ This repository gives an overview of my journey through the DevOps course I took
 ## Blogs 📚  
 
 ### Blog 1 📝  
-#### [Traditional vs Docker: The Easiest Way to Setup a Minecraft Local Server](https://medium.com/@moazfarrukh/traditional-vs-docker-the-easiest-way-to-setup-a-minecraft-local-server)  
+#### [Traditional vs Docker: The Easiest Way to Setup a Minecraft Local Server](https://medium.com/@moazfarrukh/traditional-vs-docker-the-easiest-method-for-setting-up-a-local-minecraft-server-8e06f0de5c43)  
 In this blog, I compare two methods for setting up a local Minecraft server: the traditional manual approach and a streamlined Docker-based method. The traditional method involves installing dependencies, configuring firewalls, and manually setting up the server, which can be time-consuming and error-prone. In contrast, Docker simplifies the process with a single command that leverages containerization, automates configuration using environment variables, and isolates the server environment from the host system. For added flexibility, Docker Compose allows easy server configuration using a YAML file. The blog highlights that while the traditional method offers hands-on control, Docker's efficiency and ease of use make it the preferred option for most users. ⚙️🐳  
 
 ---
 
 ### Blog 2 📝  
-#### [Managing Microservices Made Easy: Using Linkerd with Kubernetes](https://medium.com/@moazfarrukh/managing-microservices-made-easy-using-linkerd-with-kubernetes)  
+#### [Managing Microservices Made Easy: Using Linkerd with Kubernetes](https://medium.com/@moazfarrukh/managing-microservices-made-easy-implementing-linkerd-in-kubernetes-196fcf111b4d)  
 This guide demonstrates how to use Linkerd, a lightweight service mesh, to simplify service-to-service communication in a Kubernetes environment. Using the Emojivoto demo application, it covers:  
 - **Deployment**: Setting up the application on Kubernetes.  
 - **Linkerd Installation**: Installing and configuring Linkerd to enhance security and observability.  
