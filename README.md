@@ -19,8 +19,8 @@ This guide demonstrates how to use Linkerd, a lightweight service mesh, to simpl
 
 Linkerd provides secure, reliable, and observable communication, making microservices architectures more scalable, manageable, and resilient. 🛠️🔧  
 
-## Applying Devops Tools
-I have demostrated how to apply devops tools to turn a application into production ready for deployment using my own MERN application [budget tracking app](./budget-tracking-app)  
+## Applying DevOps Tools 🛠️
+I have demonstrated how to apply key DevOps tools to turn an application into a production-ready solution for deployment, using my own MERN stack project—[Budget Tracking App](./budget-tracking-app).  
 ## Resume 📄  
 You can view my [resume](./Resume.md) for detailed information about my professional experience, technical skills, education, and significant projects. It highlights my journey as a developer and showcases my contributions to real-world applications in web development, backend engineering, and DevOps practices. 👨‍💻  
 
