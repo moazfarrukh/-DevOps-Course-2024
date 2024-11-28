@@ -1,6 +1,6 @@
 # Dockerizing a MERN Stack Application
 
-This guide will walk you through the process of dockerizing a MERN (MongoDB, Express, React, Node.js) application with separate client and server folders. We'll create Dockerfiles for both the client (React) and server (Node.js with Express), and a `docker-compose.yml` file to orchestrate the services.
+This guide will walk you through the process of dockerizing a MERN (MongoDB, Express, React, Node.js) application with separate client and server folders for this purpose we will be using my budget tracking app. We'll create Dockerfiles for both the client (React) and server (Node.js with Express), and a `docker-compose.yml` file to orchestrate the services.
 
 ---
 
