@@ -12,3 +12,7 @@ This guide demonstrates how to use Linkerd, a lightweight service mesh, to simpl
 - Service Profiles: Defining policies like retries and timeouts with minimal code changes.
 
 Linkerd provides secure, reliable, and observable communication, making microservices architectures more scalable, manageable, and resilient.
+
+## Contact  
+📧 maazfarrukh@gmail.com  
+🌐 [LinkedIn](https://linkedin.com/in/moaz-farrukh)
